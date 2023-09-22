@@ -1,0 +1,64 @@
+/* the main div block of footer */
+.footer-div {
+  display: block;
+  padding: 0 35px;
+}
+
+/* flex div block */
+.footer-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  width: 100%;  
+}
+
+/* 4 div blocks */
+.footer-block {
+  margin: 0;
+  size: 25%;
+  width: 100%;
+}
+
+
+.footer-block-header {
+  justify-content: space-between;
+  font-family:Arial, sans-serif;
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+.footer-block-information {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+}
+
+.footer-block-information a {
+  text-decoration: none;
+  color: gray;  
+}
+
+.footer-block p {
+  padding-right: 30px;
+}
+
+#last {
+  padding-right: 0px;
+}
+
+/* start work with ul in .footer-block-information */
+.footer-block-information ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-block-information ul li {
+  margin-bottom: 15px;
+}
+
+
+.footer-block-information ul li a {
+  text-decoration: none;
+  color: gray;  
+}
+/* finish work with ul in .footer-block-information */
