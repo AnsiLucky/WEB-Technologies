@@ -1,1 +1,1 @@
-All Labs and Assignments
+All Labs
